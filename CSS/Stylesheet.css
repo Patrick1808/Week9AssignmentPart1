@@ -68,6 +68,21 @@ li {
   text-align: center;
   font-size: 2.5rem;
 }
+
+.icon_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10%;
+}
+
+.page1_icon {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
 /* End of page 1 content css --------------------*/
 
 /* Start of my page 2 contact form --------------------*/
@@ -215,6 +230,10 @@ li {
   }
   li {
     font-size: 10px;
+  }
+  .page1_icon {
+    width: 25px;
+    height: 25px;
   }
   .save {
     font-size: 10px;

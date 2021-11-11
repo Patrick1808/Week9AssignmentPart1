@@ -1,0 +1,230 @@
+/* Start of Global CSS --------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+.googlefont {
+  font-family: "Open Sans", sans-serif;
+  padding: 15px;
+}
+
+body {
+  background-color: #f2e9de;
+  margin: 0;
+  padding: 0;
+}
+/* End of Global CSS --------------------*/
+
+/* Start of side nav css --------------------*/
+.wrapper {
+  display: flex;
+  position: relative;
+}
+
+.sidebar {
+  position: fixed;
+  width: 23%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #ebbcba;
+}
+.side_title {
+  color: #191724;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.googlefont {
+  font-family: "Open Sans", sans-serif;
+  padding: 15px;
+}
+
+li {
+  padding: 15px;
+  text-align: center;
+  font-size: larger;
+}
+/* End of side nav css --------------------*/
+
+/* Start of page 1 content css --------------------*/
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: auto;
+  height: 500px;
+  padding: 10px;
+  margin-left: 25%;
+  margin-top: 8%;
+}
+
+.div {
+  width: 30%;
+  height: 50%;
+  padding: 1%;
+  margin: 2%;
+  background-color: #9ccfd8;
+  text-align: center;
+  font-size: 2.5rem;
+}
+/* End of page 1 content css --------------------*/
+
+/* Start of my page 2 contact form --------------------*/
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.person_icon {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+.contact_form {
+  margin-left: 40%;
+  margin-right: 25%;
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.contact_info {
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  width: 300px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+/* End of my page 2 contact form --------------------*/
+
+/* Start of my save contact and cancel --------------------*/
+.save_cancel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.save {
+  border: 3px solid #191724;
+  border-radius: 10px;
+  background-color: #9ccfd8;
+  width: 30%;
+  text-align: center;
+  font-size: x-large;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-right: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.cancel {
+  border: 3px solid #191724;
+  border-radius: 10px;
+  background-color: #ebbcba;
+  width: 25%;
+  text-align: center;
+  font-size: x-large;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+/* End of my save contact and cancel --------------------*/
+
+/* Start of page3 Edit Contact --------------------*/
+.page3_all {
+  margin-top: 5%;
+  margin-left: 28%;
+}
+.edit_contact {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 5%;
+}
+
+.name {
+  font-size: 5em;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-right: 8%;
+}
+
+.rest_info {
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+}
+
+.personal_info {
+  font-size: xx-large;
+  padding: 1%;
+}
+/* End of page 3 Edit Contact --------------------*/
+
+/* Start of Edit and Close buttons --------------------*/
+.edit_close {
+  display: flex;
+  flex-direction: row;
+}
+
+.edit {
+  border: 3px solid #191724;
+  border-radius: 10px;
+  background-color: #9ccfd8;
+  width: 10%;
+  font-size: 2em;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  margin-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.close {
+  border: 3px solid #191724;
+  border-radius: 10px;
+  background-color: #ebbcba;
+  width: 10%;
+  font-size: 2em;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+/* End of Edit and Close buttons--------------------*/
+
+@media screen and (max-width: 600px) {
+  .side_title {
+    font-size: 10px;
+  }
+  .div {
+    font-size: 10px;
+  }
+  li {
+    font-size: 10px;
+  }
+  .save {
+    font-size: 10px;
+  }
+  .cancel {
+    font-size: 10px;
+  }
+  .edit {
+    font-size: 10px;
+  }
+  .close {
+    font-size: 10px;
+  }
+}
